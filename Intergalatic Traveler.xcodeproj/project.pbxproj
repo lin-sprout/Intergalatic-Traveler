@@ -13,6 +13,7 @@
 		DB5D6F9427D69FB8008CF0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5D6F9227D69FB8008CF0E6 /* Main.storyboard */; };
 		DB5D6F9627D69FBB008CF0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5D6F9527D69FBB008CF0E6 /* Assets.xcassets */; };
 		DB5D6F9927D69FBB008CF0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5D6F9727D69FBB008CF0E6 /* LaunchScreen.storyboard */; };
+		DB5D6FA127D7F5BB008CF0E6 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D6FA027D7F5BB008CF0E6 /* StarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DB5D6F9527D69FBB008CF0E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB5D6F9827D69FBB008CF0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5D6F9A27D69FBB008CF0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5D6FA027D7F5BB008CF0E6 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DB5D6F8C27D69FB8008CF0E6 /* AppDelegate.swift */,
 				DB5D6F8E27D69FB8008CF0E6 /* SceneDelegate.swift */,
 				DB5D6F9027D69FB8008CF0E6 /* ViewController.swift */,
+				DB5D6FA027D7F5BB008CF0E6 /* StarViewController.swift */,
 				DB5D6F9227D69FB8008CF0E6 /* Main.storyboard */,
 				DB5D6F9527D69FBB008CF0E6 /* Assets.xcassets */,
 				DB5D6F9727D69FBB008CF0E6 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5D6FA127D7F5BB008CF0E6 /* StarViewController.swift in Sources */,
 				DB5D6F9127D69FB8008CF0E6 /* ViewController.swift in Sources */,
 				DB5D6F8D27D69FB8008CF0E6 /* AppDelegate.swift in Sources */,
 				DB5D6F8F27D69FB8008CF0E6 /* SceneDelegate.swift in Sources */,
