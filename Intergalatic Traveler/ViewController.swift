@@ -16,6 +16,23 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view.
         assignbackground()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let nvc = segue.destination as! StarViewController
+        
+        let randomNumber = Int.random(in: 1...3)
+        if segue.identifier == "redViewSegue"
+        {
+            nvc.starName = "Red\(randomNumber)"
+        }
+        else
+        {
+            nvc.starName = "Blue\(randomNumber)"
+        }
+    }
+    
+    
     func assignbackground()
     {
         let background = UIImage(named: "Space-bg")

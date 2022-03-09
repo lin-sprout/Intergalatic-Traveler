@@ -55,14 +55,23 @@
                     <view key="view" contentMode="scaleToFill" id="2Sv-xw-hCJ">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LEd-aH-3Jr">
+                                <rect key="frame" x="20" y="88" width="388" height="486"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Lmo-ql-bdj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="xfb-ns-1fE"/>
+                    <connections>
+                        <outlet property="starImage" destination="LEd-aH-3Jr" id="Hhk-No-KOv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOl-h3-GpG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700" y="82"/>
+            <point key="canvasLocation" x="1699.0654205607475" y="81.641468682505405"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Di6-iF-Owk">
