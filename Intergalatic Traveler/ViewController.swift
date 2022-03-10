@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController
 {
+    
+    
+    var redStarImgs = ["reddwarfstarA", "reddwarfstarB", "reddwarfstarC"]
+    
+    var bluStarImgs = ["bluedwarfstarA", "bluedwarfstarB","bluedwarfstarC"]
+    
 
     override func viewDidLoad()
     {
@@ -21,14 +27,15 @@ class ViewController: UIViewController
     {
         let nvc = segue.destination as! StarViewController
         
-        let randomNumber = Int.random(in: 1...3)
-        if segue.identifier == "redViewSegue"
+        let randomNumber = Int.random(in: 0...2)
+        if segue.identifier == "redSegue"
         {
-            nvc.starName = "Red\(randomNumber)"
+            nvc.starName = redStarImgs [randomNumber]
         }
         else
         {
-            nvc.starName = "Blue\(randomNumber)"
+            nvc.starName = bluStarImgs [randomNumber]
+            
         }
     }
     

@@ -22,6 +22,7 @@ class StarViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         starImage.image = UIImage(named: starName)
+        self.view.backgroundColor = UIColor.black
     }
     
 
